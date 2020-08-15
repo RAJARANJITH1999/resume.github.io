@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        
+		<meta charset="UTF-8">
+		<meta name="description" content="This is my Resume">
+        <meta name="author" content="Raja">
+        <meta name="keywords" content="Resume, Objective, Achievement, Goals, Hobbies, Certification, Qualification, Strengths, Weakness">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Resume</title>
+        
+    </head>
+    
+    <style>
+    
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        
+        background: linear-gradient(-50deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	   background-size: 400% 400%;
+	   animation: gradient 10s ease infinite;
+    }
+        
+    footer {
+       position: fixed;
+       left: 0;
+       bottom: 0;
+       width: 100%;
+    }
+
+        @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+
+         
+    }
+    #resume{
+        margin-top: 50px;
+    }    
+    
+    img{
+        border: 1px solid;
+            
+        border-radius: 4px;
+        padding: 5px;
+        width: 105px;  
+        
+        
+    }
+    #mySidenav a {
+          position: absolute;
+          left: -130px;
+          transition: 0.3s;
+          padding:15px;
+          width: 120px;
+          text-decoration: none;
+          font-size: 20px;
+          color: white;
+          border-radius: 0 5px 5px 0;
+          margin-top: 270px;;
+    }
+
+    #mySidenav a:hover {
+      left: 0;
+
+    }
+
+    #Home {
+      top: 20px;
+
+      background: linear-gradient(-50deg, #3cba54, #f4c20d, #db3236, #4885ed);
+      background-size: 400% 400%;
+      animation: gradient 20s ease infinite;
+        
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    }        
+        
+    #Qualification {
+      top: 80px;
+
+      background: linear-gradient(-50deg, lightgreen, goldenrod, lightseagreen,red);
+      background-size: 400% 400%;
+      animation: gradient 20s ease infinite;
+        
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    }
+        
+    #Achievements {
+      top: 140px;
+      background: linear-gradient(-50deg, red, white , black,lightblue);
+      background-size: 400% 400%;
+      animation: gradient 20s ease infinite;
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+
+        }
+    }
+        
+    #Projects {
+      top: 200px;
+      background: linear-gradient(-50deg, red, violet, pink, aqua);
+      background-size: 400% 400%;
+      animation: gradient 20s ease infinite;
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    }
+        
+    #Skills {
+      top: 260px;
+      background: linear-gradient(-50deg, aqua, burlywood, black );
+      background-size: 400% 400%;
+      animation: gradient 20s ease infinite;
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    }
+        
+    .main {
+      margin-left: 70px; /* Same as the width of the sidenav */
+      font-size: 28px; /* Increased text to enable scrolling */
+      padding: 0px 10px;
+    }
+    </style>
+    
+    <body>
+    
+        <header>
+            
+            <img src="images/PHOTO.jpg" align="right"  alt="PHOTO"><br>
+            
+            <br><h1  style="color: snow;"><center>RESUME</center></h1><br>
+            <hr>
+            <marquee loop aria-live="assertive"><p><strong>Email :</strong> asiletirajaranjithkumar7@gmail.com <strong>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ph No:</strong> 9154572527</p></marquee>
+            
+            
+        </header>
+        
+        
+        <main>
+            
+           <div id="mySidenav" class="sidenav">
+                
+               <h2 style="background:linear-gradient(-50deg, orange, white,green);
+                          background-size: 400% 400%;
+	                      animation: gradient 20s ease infinite; color: cadetblue; text-emphasis-style: double-circle">
+                          <center>ACHIEVEMENTS</center></h2>
+               
+               
+                <a href="index.html" id="Home">Home</a>
+                <a href="Qualification.html" id="Qualification">Qualification</a>
+                <a href="Achievements.html" id="Achievements">Achievements</a>
+                <a href="Projects.html" id="Projects">Projects</a>
+                <a href="Skills.html" id="Skills">Skills</a>
+               
+            </div>
+            
+            <div class="main">
+            
+                
+            </div>
+        
+        </main>
+        
+        
+        <footer>
+        
+            <marquee style="background: linear-gradient(-30deg, white,yellow);animation-direction: normal; animation: gradient 10s ease infinite; color: black"><b>All the content in this Page are truely mine...</b></marquee>
+        </footer>
+    
+    </body>
+    
+</html>

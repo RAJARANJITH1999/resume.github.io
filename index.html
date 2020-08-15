@@ -17,21 +17,18 @@
     <style>
     
        header{
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        
+                
         background: linear-gradient(-50deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	   background-size: 400% 400%;
 	   animation: gradient 10s ease infinite;
     }
         
     footer {
-       position: fixed;
+       position: relative;
        left: 0;
        bottom: 0;
        width: 100%;
+        
     }
         @keyframes gradient {
         0% {
@@ -119,7 +116,7 @@
         
     #Achievements {
       top: 140px;
-      background: linear-gradient(-50deg, red, white , black,lightblue);
+      background: linear-gradient(-10deg, red, white , black,lightblue);
       background-size: 400% 400%;
       animation: gradient 20s ease infinite;
         @keyframes gradient {
@@ -175,8 +172,33 @@
     .main {
       margin-left: 70px; /* Same as the width of the sidenav */
       font-size: 28px; /* Increased text to enable scrolling */
-      padding: 0px 10px;
-      width: 70%
+      padding: 0px 80px;
+      width: 70%;
+        }
+        
+        table{
+            font-family: sans-serif;
+            margin-left: auto;
+            margin-right: auto;
+            border-top-style:outset;
+            align-content: center;
+            table-layout: auto;
+            background: linear-gradient(-50deg, lightgreen, orange, white);
+            background-size: 400% 400%;
+            animation: gradient 20s ease infinite;
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+        }
+    
     }
      
     </style>
@@ -199,9 +221,9 @@
             
            <div id="mySidenav" class="sidenav">
                 
-               <h2 style="background:linear-gradient(-50deg, orange, white,green);
+               <h2 style="background:linear-gradient(-50deg, orange, white,black);
                           background-size: 400% 400%;
-	                      animation: gradient 20s ease infinite; color: cadetblue; text-emphasis-style: double-circle">
+	                      animation: gradient 20s ease infinite; color: goldenrod; text-emphasis-style: double-circle; font-family:cursive" >
                           <center>HOME</center></h2>
                
                
@@ -213,17 +235,69 @@
                
             </div>
             
-            <div class="main">
-            <p>sdfghjkjhgfdfghjklkjhgffghjkkjhgfdfghjkkjhgf</p>
+           <div class="main">  <p>
+               <table border="3" >
+                    
+                   <thead style="color: darkgreen;"><strong><center>PROFILE</center></strong></thead>
+                   
+                   <tr>
+                        <td><strong>NAME</strong></td>
+                        <td>ASILETI RAJA RANJITH KUMAR</td>
+                   </tr>
+                   
+                   <tr>
+                        <td><strong>DOB</strong></td>
+                        <td>23-03-1999</td>
+                    
+                   </tr>
+                   <tr>
+                   
+                        <td><strong>AGE</strong></td>
+                        <td>21</td>
+                       
+                   </tr>
+                   
+                   <tr>
+                        <td><strong>GENDER</strong></td>
+                        <td>Male</td>
+                   </tr>
+                   
+                   <tr>
+                       
+                       <td><strong>MAIL ID</strong></td>
+                       <td>asiletirajaranjithkumar7@gmail.com</td>
+                   
+                   </tr>
+                   
+                   <tr>
+                        <td><strong>MOBILE NO</strong></td>
+                        <td>9154572527</td>
+                   
+                   </tr>
+                   
+                   <tr>
+                       <td><strong>MARITAL STATUS</strong></td>
+                        <td>UnMarried</td>
+                    </tr>
+                   
+                   <tr>
+                        <td><strong>HOBBIES</strong></td>
+                        <td>Playing Chess and Cricket, Solving Suduko</td>
+                   
+                   </tr>
+               
+               </table>
+               
+               </p>
                 
-            </div>
+           </div>
         
         </main>
         
         
         <footer>
         
-            <marquee style="background: linear-gradient(-30deg, white,yellow);animation-direction: normal; animation: gradient 10s ease infinite; color: black"><b>All the content in this Page are truely mine...</b></marquee>
+            <marquee style="background: linear-gradient(-40deg, white, yellow); background-size: 400% 400%; animation: gradient 10s ease infinite; color: black" behavior="alternate" scrollamount="10" ><b>All the content in this Page are truely mine...</b></marquee>
         </footer>
     
     </body>
